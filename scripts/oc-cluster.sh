@@ -1,5 +1,5 @@
 #!/bin/sh
-
+set -x
 ## Script for installing and running `oc cluster up`
 ## Inspired by https://github.com/radanalyticsio/oshinko-cli/blob/master/.travis.yml
 
