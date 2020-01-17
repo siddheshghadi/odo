@@ -1,4 +1,5 @@
 dist: trusty
+arch: ppc64le
 sudo: required
 
 language: go
