@@ -93,10 +93,10 @@ clean:
 # install tools used for building, tests and  validations
 .PHONY: goget-tools
 goget-tools:
-	go get -u github.com/Masterminds/glide
-	go get -u github.com/frapposelli/wwhrd
-	go get -u github.com/onsi/ginkgo/ginkgo
-	go get -u github.com/securego/gosec/cmd/gosec
+	go get -u -x github.com/Masterminds/glide
+	go get -u -x github.com/frapposelli/wwhrd
+	go get -u -x github.com/onsi/ginkgo/ginkgo
+	go get -u -x github.com/securego/gosec/cmd/gosec
 
 # Run unit tests and collect coverage
 .PHONY: test-coverage
